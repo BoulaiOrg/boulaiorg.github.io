@@ -1,0 +1,72 @@
+/* The website's typography follows the LOCUS output fonts while preserving its layout. */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/barlow-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/barlow-latin-500-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/barlow-latin-600-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Locus Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/report-assets/IBMPlexMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Locus Plex Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/report-assets/IBMPlexMono-Medium.ttf") format("truetype");
+}
+
+body,
+.font-sans {
+  font-family: "Barlow", system-ui, -apple-system, sans-serif;
+}
+
+.font-display,
+.page-title,
+.section-title {
+  font-family: "Barlow", system-ui, -apple-system, sans-serif;
+  font-weight: 600;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.eyebrow,
+.inverse-eyebrow {
+  font-family: "Locus Plex Mono", ui-monospace, monospace;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: .06em;
+}
+
+.font-mono {
+  font-family: "Locus Plex Mono", ui-monospace, monospace;
+}
+
+.section-hero p.font-light {
+  font-weight: 400;
+}
