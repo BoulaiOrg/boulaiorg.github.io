@@ -70,3 +70,91 @@ body,
 .section-hero p.font-light {
   font-weight: 400;
 }
+
+/* Small scientific labels and restrained highlights, shared with Discovery. */
+:root {
+  --site-highlight: #527bb7;
+  --site-highlight-soft: #dfeaf6;
+}
+
+nav a:not([aria-label="Boulai home"]),
+.section-hero a.uppercase {
+  font-family: "Locus Plex Mono", ui-monospace, monospace;
+  letter-spacing: .06em;
+}
+
+.eyebrow,
+.inverse-eyebrow {
+  display: table;
+  width: fit-content;
+  padding: 5px 8px;
+  border-radius: 3px;
+  line-height: 1.45;
+  text-transform: uppercase;
+}
+
+.eyebrow {
+  background: var(--site-highlight-soft);
+  color: #315b91;
+  box-shadow: inset 2px 0 var(--site-highlight);
+}
+
+.inverse-eyebrow {
+  background: rgb(82 123 183 / 16%);
+  color: #c4d5ec;
+  box-shadow: inset 2px 0 #7ca1d2;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 34px;
+  height: 3px;
+  margin-top: 17px;
+  background: var(--site-highlight);
+  border-radius: 2px;
+}
+
+.section-title.text-center::after,
+.section-title.mx-auto::after {
+  margin-inline: auto;
+}
+
+article.premium-panel:has(img[alt="Atlas logo"]) {
+  --engine-accent: #0a6a94;
+  --engine-tint: #eaf4f9;
+}
+
+article.premium-panel:has(img[alt="Icarus logo"]) {
+  --engine-accent: #955f04;
+  --engine-tint: #fbf1e1;
+}
+
+article.premium-panel:has(img[alt="Locus logo"]) {
+  --engine-accent: #5b44b8;
+  --engine-tint: #efecfb;
+}
+
+article.premium-panel:has(img[alt$=" logo"]) {
+  box-shadow: inset 0 3px var(--engine-accent);
+}
+
+article.premium-panel img[alt$=" logo"] + div > p:first-child {
+  width: fit-content;
+  padding: 4px 7px;
+  border-radius: 3px;
+  background: var(--engine-tint);
+  color: var(--engine-accent);
+  font-family: "Locus Plex Mono", ui-monospace, monospace;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: .06em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+article.premium-panel:has(img[alt$=" logo"]) .card-title {
+  width: fit-content;
+  max-width: 100%;
+  background: linear-gradient(transparent 72%, var(--engine-tint) 72%);
+}
