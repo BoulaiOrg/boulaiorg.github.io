@@ -274,6 +274,15 @@ footer [class*="text-white/[42%]"] {
   font: 400 clamp(16px, 1.4vw, 19px)/1.55 "Barlow", system-ui, sans-serif;
 }
 
+.site-boulai-hero-anim-frame {
+  display: block;
+  width: 100%;
+  aspect-ratio: 600 / 445;
+  border: 0;
+  background: transparent;
+  pointer-events: none;
+}
+
 .site-boulai-product-card {
   margin-top: 0;
   padding: clamp(24px, 2.3vw, 36px);
