@@ -223,3 +223,162 @@ footer [class*="text-white/[42%]"] {
   color: #aab4c2;
   font-size: 12px;
 }
+
+.site-question-kicker {
+  margin-bottom: 14px;
+  color: #c4d5ec;
+  font: 400 12px/1.4 "Locus Plex Mono", ui-monospace, monospace;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.site-question-title {
+  margin: 0 0 18px;
+  color: #e6e8eb;
+  font: 600 clamp(25px, 2.4vw, 32px)/1.18 "Barlow", system-ui, sans-serif;
+}
+
+.site-question-examples {
+  max-width: 48ch;
+  color: #d4dbe5;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.site-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px 22px;
+  margin-top: 28px;
+}
+
+.section-cta .site-cta-actions {
+  justify-content: center;
+}
+
+.site-secondary-link {
+  color: #d4dbe5;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.site-secondary-link:hover,
+.site-secondary-link:focus-visible {
+  color: #fff;
+}
+
+.question-form {
+  display: grid;
+  gap: 24px;
+  padding: 32px;
+}
+
+.question-form__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.question-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #0b0e14;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.question-form__field input,
+.question-form__field select,
+.question-form__field textarea {
+  width: 100%;
+  min-height: 48px;
+  border: 1px solid #a9b0bc;
+  border-radius: 6px;
+  background: #f7f8fa;
+  color: #0b0e14;
+  padding: 11px 14px;
+  font: 400 16px/1.45 "Barlow", system-ui, sans-serif;
+}
+
+.question-form__field textarea {
+  min-height: 144px;
+  resize: vertical;
+}
+
+.question-form__field input::placeholder,
+.question-form__field textarea::placeholder {
+  color: #65707d;
+}
+
+.question-form__field input:focus-visible,
+.question-form__field select:focus-visible,
+.question-form__field textarea:focus-visible,
+.question-form__submit:focus-visible {
+  outline: 2px solid #527bb7;
+  outline-offset: 2px;
+}
+
+.question-form__submit {
+  min-height: 48px;
+  border: 0;
+  border-radius: 6px;
+  background: #0b0e14;
+  color: #e6e8eb;
+  cursor: pointer;
+  font: 600 13px/1.3 "Barlow", system-ui, sans-serif;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.question-form__submit:hover {
+  background: #253348;
+}
+
+.question-form__submit:disabled {
+  cursor: wait;
+  opacity: .6;
+}
+
+.question-form__status {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.question-form__status:empty {
+  display: none;
+}
+
+.question-form__status.success {
+  color: #1b5c47;
+}
+
+.question-form__status.error {
+  color: #9f2b2b;
+}
+
+@media (min-width: 640px) {
+  .question-form {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 639px) {
+  .site-cta-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .site-cta-actions .site-secondary-link {
+    text-align: center;
+  }
+
+  .question-form__grid {
+    grid-template-columns: 1fr;
+  }
+}
