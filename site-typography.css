@@ -226,11 +226,13 @@ footer [class*="text-white/[42%]"] {
 
 /* Company mission and first-product lockup on the Home hero. */
 .site-boulai-hero {
+  position: relative;
   display: flex;
   align-items: center;
   min-height: calc(100svh - 80px);
   padding-block: clamp(72px, 8vw, 128px);
   background: #0e1016;
+  overflow: hidden;
 }
 
 .site-boulai-hero-inner {
@@ -274,10 +276,21 @@ footer [class*="text-white/[42%]"] {
   font: 400 clamp(16px, 1.4vw, 19px)/1.55 "Barlow", system-ui, sans-serif;
 }
 
+.site-boulai-hero-statement {
+  position: relative;
+  z-index: 1;
+}
+
+.site-boulai-hero-detail {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
 .site-boulai-hero-anim-frame {
   display: block;
   width: 100%;
-  aspect-ratio: 600 / 400;
+  height: 100%;
   border: 0;
   background: transparent;
   pointer-events: none;
@@ -399,6 +412,14 @@ footer [class*="text-white/[42%]"] {
     gap: 48px;
   }
 
+  .site-boulai-hero-detail {
+    position: relative;
+    inset: auto;
+    width: min(100%, 800px);
+    height: 430px;
+    margin-inline: auto;
+  }
+
   .site-boulai-hero-title {
     max-width: 15ch;
     font-size: clamp(38px, 5.4vw, 54px);
@@ -416,6 +437,10 @@ footer [class*="text-white/[42%]"] {
 
   .site-boulai-hero-title {
     font-size: clamp(34px, 8.6vw, 42px);
+  }
+
+  .site-boulai-hero-detail {
+    height: 400px;
   }
 
   .site-boulai-hero-subtitle {
