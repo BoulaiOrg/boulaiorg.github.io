@@ -232,6 +232,17 @@ footer [class*="text-white/[42%]"] {
   text-transform: uppercase;
 }
 
+/* Match the Discovery tool's lockup while keeping the Product hero compact. */
+.product-logo-hero {
+  --h: 7rem;
+}
+
+@media (min-width: 768px) {
+  .product-logo-hero {
+    --h: 9rem;
+  }
+}
+
 .site-question-title {
   margin: 0 0 18px;
   color: #e6e8eb;
