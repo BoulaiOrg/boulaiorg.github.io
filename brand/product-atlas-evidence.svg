@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="title desc">
+  <title id="title">Atlas: effect distributions</title>
+  <desc id="desc">Illustrative box and whisker plots comparing effect estimates across analysis groups.</desc>
+  <rect width="720" height="470" fill="#f5f6f3"/>
+  <path d="M0 58H720M0 416H720" stroke="#cfd4d8"/>
+  <text x="34" y="36" fill="#26313e" font-family="monospace" font-size="11" letter-spacing="1.5">ATLAS / EFFECT ESTIMATES</text>
+  <text x="684" y="36" text-anchor="end" fill="#77818b" font-family="monospace" font-size="10" letter-spacing="1">ILLUSTRATIVE OUTPUT</text>
+  <text x="34" y="91" fill="#202b37" font-family="sans-serif" font-size="18" font-weight="600">How stable is the estimated effect?</text>
+  <text x="34" y="115" fill="#63707c" font-family="sans-serif" font-size="12">Distribution and uncertainty across analysis groups</text>
+
+  <g stroke="#dde1e3" stroke-width="1">
+    <path d="M192 144V356M289 144V356M386 144V356M483 144V356M580 144V356"/>
+    <path d="M192 174H580M192 228H580M192 282H580M192 336H580" stroke="#e8eaeb"/>
+  </g>
+  <path d="M386 144V356" stroke="#9ba5ae" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <g fill="#47535f" font-family="sans-serif" font-size="12">
+    <text x="34" y="179">Full sample</text>
+    <text x="34" y="233">High baseline</text>
+    <text x="34" y="287">Low baseline</text>
+    <text x="34" y="341">Prior treatment</text>
+  </g>
+  <g stroke="#577cb1" stroke-width="2" fill="none">
+    <path d="M350 174H544M350 165V183M544 165V183"/>
+    <path d="M304 228H503M304 219V237M503 219V237"/>
+  </g>
+  <g fill="#86a4cc" fill-opacity=".42" stroke="#527bb7" stroke-width="1.5">
+    <rect x="406" y="161" width="91" height="26" rx="1"/>
+    <rect x="366" y="215" width="92" height="26" rx="1"/>
+  </g>
+  <g stroke="#315f9e" stroke-width="2.5">
+    <path d="M457 161V187M413 215V241"/>
+  </g>
+  <g stroke="#828e9a" stroke-width="2" fill="none">
+    <path d="M251 282H455M251 273V291M455 273V291"/>
+    <path d="M217 336H416M217 327V345M416 327V345"/>
+  </g>
+  <g fill="#cfd6dc" stroke="#8d99a4" stroke-width="1.5">
+    <rect x="307" y="269" width="91" height="26" rx="1"/>
+    <rect x="270" y="323" width="92" height="26" rx="1"/>
+  </g>
+  <g stroke="#566675" stroke-width="2.5">
+    <path d="M358 269V295M318 323V349"/>
+  </g>
+  <g fill="#687583" font-family="monospace" font-size="11">
+    <text x="192" y="378" text-anchor="middle">−0.4</text>
+    <text x="289" y="378" text-anchor="middle">−0.2</text>
+    <text x="386" y="378" text-anchor="middle">0</text>
+    <text x="483" y="378" text-anchor="middle">+0.2</text>
+    <text x="580" y="378" text-anchor="middle">+0.4</text>
+  </g>
+  <text x="386" y="400" text-anchor="middle" fill="#465563" font-family="sans-serif" font-size="12">Standardised effect</text>
+  <rect x="34" y="438" width="12" height="12" fill="#86a4cc" stroke="#527bb7"/>
+  <text x="54" y="448" fill="#53616e" font-family="sans-serif" font-size="11">Interquartile range</text>
+  <path d="M198 444H224M211 438V450" stroke="#527bb7" stroke-width="1.5"/>
+  <text x="235" y="448" fill="#53616e" font-family="sans-serif" font-size="11">Whisker and median</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="title desc">
+  <title id="title">Locus: causal theory under stress</title>
+  <desc id="desc">Illustrative causal graph highlighting a relationship whose observed pattern differs from the proposed theory.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#84929e"/></marker>
+    <marker id="alert" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#bc8950"/></marker>
+  </defs>
+  <rect width="720" height="470" fill="#f5f6f3"/>
+  <path d="M0 58H720M0 416H720" stroke="#cfd4d8"/>
+  <text x="34" y="36" fill="#26313e" font-family="monospace" font-size="11" letter-spacing="1.5">LOCUS / CAUSAL THEORY CHECK</text>
+  <text x="684" y="36" text-anchor="end" fill="#77818b" font-family="monospace" font-size="10" letter-spacing="1">ILLUSTRATIVE OUTPUT</text>
+  <text x="34" y="91" fill="#202b37" font-family="sans-serif" font-size="18" font-weight="600">Where does the explanation strain?</text>
+  <text x="34" y="115" fill="#63707c" font-family="sans-serif" font-size="12">Compare a proposed mechanism with patterns observed in data</text>
+
+  <g fill="none" stroke="#84929e" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M201 225H286"/>
+    <path d="M414 225H502"/>
+    <path d="M170 242C217 331 409 338 506 244"/>
+    <path d="M350 327V255"/>
+  </g>
+  <path d="M414 225H502" stroke="#bc8950" stroke-width="4" marker-end="url(#alert)"/>
+  <g fill="#f9faf8" stroke="#a6b0b8" stroke-width="1.5">
+    <rect x="72" y="198" width="130" height="54" rx="3"/>
+    <rect x="286" y="198" width="128" height="54" rx="3"/>
+    <rect x="502" y="198" width="135" height="54" rx="3"/>
+    <rect x="286" y="327" width="128" height="47" rx="3"/>
+  </g>
+  <g fill="#24313d" font-family="sans-serif" font-size="14" font-weight="600" text-anchor="middle">
+    <text x="137" y="231">Exposure</text>
+    <text x="350" y="231">Marker</text>
+    <text x="569" y="231">Outcome</text>
+    <text x="350" y="356">Context</text>
+  </g>
+  <circle cx="456" cy="225" r="14" fill="#bc8950"/>
+  <text x="456" y="231" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="16" font-weight="600">!</text>
+  <rect x="400" y="151" width="168" height="25" rx="2" fill="#f0e2cf"/>
+  <text x="484" y="168" text-anchor="middle" fill="#875f30" font-family="monospace" font-size="10" letter-spacing=".5">RELATIONSHIP TO REVIEW</text>
+  <path d="M484 176L456 208" stroke="#bc8950" stroke-width="1.5"/>
+  <circle cx="93" cy="166" r="4" fill="#527bb7"/>
+  <text x="105" y="170" fill="#4b5967" font-family="sans-serif" font-size="11">Declared theory</text>
+  <text x="34" y="443" fill="#667480" font-family="sans-serif" font-size="11">Flagged links prompt inspection of evidence and alternative explanations.</text>
+</svg>

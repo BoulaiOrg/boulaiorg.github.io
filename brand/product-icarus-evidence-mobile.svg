@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 270" role="img" aria-labelledby="title desc">
+  <title id="title">Icarus: candidate structure</title><desc id="desc">Illustrative residual patterns and candidate latent factors.</desc>
+  <rect width="390" height="270" fill="#f5f6f3"/><path d="M0 42H390M0 234H390" stroke="#cfd4d8"/>
+  <text x="18" y="26" fill="#26313e" font-family="monospace" font-size="11" letter-spacing=".8">ICARUS / RESIDUALS</text>
+  <text x="372" y="26" text-anchor="end" fill="#77818b" font-family="monospace" font-size="10">ILLUSTRATIVE</text>
+  <text x="18" y="69" fill="#202b37" font-family="sans-serif" font-size="16" font-weight="600">What remains unexplained?</text>
+  <g stroke="#e2e5e6"><path d="M24 101H236M24 147H236M24 193H236M68 88V215M112 88V215M156 88V215M200 88V215"/></g>
+  <path d="M24 88V215H236" fill="none" stroke="#88939e"/>
+  <g fill="#527bb7" fill-opacity=".75"><circle cx="53" cy="183" r="4"/><circle cx="67" cy="172" r="3"/><circle cx="80" cy="194" r="4"/><circle cx="93" cy="179" r="4"/><circle cx="105" cy="165" r="3"/><circle cx="116" cy="190" r="4"/><circle cx="131" cy="172" r="4"/><circle cx="143" cy="199" r="3"/><circle cx="159" cy="182" r="4"/><circle cx="172" cy="193" r="3"/></g>
+  <g fill="#c19350" fill-opacity=".8"><circle cx="111" cy="123" r="4"/><circle cx="128" cy="108" r="3"/><circle cx="143" cy="133" r="4"/><circle cx="158" cy="117" r="4"/><circle cx="173" cy="135" r="3"/><circle cx="187" cy="109" r="4"/><circle cx="200" cy="127" r="4"/><circle cx="215" cy="116" r="3"/></g>
+  <path d="M250 89V214" stroke="#cbd1d5"/>
+  <text x="265" y="104" fill="#41505e" font-family="monospace" font-size="9">CANDIDATE FACTORS</text>
+  <g fill="#495663" font-family="sans-serif" font-size="11"><text x="265" y="129">Factor 01</text><text x="265" y="166">Factor 02</text><text x="265" y="203">Factor 03</text></g>
+  <g fill="#e1e4e4"><rect x="265" y="136" width="99" height="6"/><rect x="265" y="173" width="99" height="6"/><rect x="265" y="210" width="99" height="6"/></g>
+  <g fill="#c19350"><rect x="265" y="136" width="87" height="6"/><rect x="265" y="173" width="63" height="6"/><rect x="265" y="210" width="42" height="6"/></g>
+  <text x="18" y="255" fill="#667480" font-family="sans-serif" font-size="11">Candidate patterns, not confirmed causes.</text>
+</svg>
