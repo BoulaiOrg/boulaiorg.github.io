@@ -47,6 +47,10 @@
   object-fit: contain;
 }
 
+.product-engine-card:first-child .product-engine-label img {
+  transform: scale(.85);
+}
+
 .product-engine-version {
   padding: 2px 5px;
   border: 1px solid currentColor;
