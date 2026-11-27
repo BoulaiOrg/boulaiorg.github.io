@@ -119,13 +119,66 @@
   }
 
   .product-engine-visual {
-    overflow-x: auto;
     margin: 28px -16px 0;
-    scrollbar-color: #a7b3c0 transparent;
+  }
+}
+
+@media (max-width: 600px) {
+  .product-engine-visual {
+    overflow: hidden;
   }
 
   .product-engine-visual img {
-    width: max(900px, 100%);
-    max-width: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .product-engine-visual::before,
+  .product-engine-visual::after {
+    content: "";
+    display: block;
+    width: 100%;
+    background-image: var(--engine-figure);
+    background-repeat: no-repeat;
+  }
+
+  .product-engine-visual::before {
+    aspect-ratio: 520 / 380;
+    background-size: 230.77% auto;
+    background-position: left top;
+  }
+
+  .product-engine-visual::after {
+    margin-top: 12px;
+    background-size: 181.818% auto;
+    background-position: right top;
+  }
+
+  .product-engine-card:nth-child(1) {
+    --engine-figure: url("/brand/product-atlas-figure.svg");
+  }
+
+  .product-engine-card:nth-child(1) .product-engine-visual::after {
+    aspect-ratio: 660 / 536;
+  }
+
+  .product-engine-card:nth-child(2) {
+    --engine-figure: url("/brand/product-icarus-figure.svg");
+  }
+
+  .product-engine-card:nth-child(2) .product-engine-visual::after {
+    aspect-ratio: 660 / 516;
+  }
+
+  .product-engine-card:nth-child(3) {
+    --engine-figure: url("/brand/product-locus-figure.svg");
+  }
+
+  .product-engine-card:nth-child(3) .product-engine-visual::after {
+    aspect-ratio: 660 / 486;
   }
 }
