@@ -257,7 +257,7 @@ footer [class*="text-white/[42%]"] {
 
 .site-boulai-hero-subtitle {
   margin: 25px 0 0;
-  color: #b7bec9;
+  color: #e6e8eb;
   font: 400 clamp(17px, 1.5vw, 21px)/1.45 "Barlow", system-ui, sans-serif;
   white-space: nowrap;
 }
@@ -273,7 +273,7 @@ footer [class*="text-white/[42%]"] {
 .site-boulai-description {
   max-width: 52ch;
   margin: 30px 0 0;
-  color: #b7bec9;
+  color: #e6e8eb;
   font: 400 clamp(16px, 1.4vw, 19px)/1.55 "Barlow", system-ui, sans-serif;
 }
 
