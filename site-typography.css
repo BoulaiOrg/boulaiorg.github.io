@@ -252,6 +252,13 @@ footer [class*="text-white/[42%]"] {
   letter-spacing: -.045em;
 }
 
+.site-boulai-hero-subtitle {
+  max-width: 32ch;
+  margin: 25px 0 0;
+  color: #b7bec9;
+  font: 400 clamp(17px, 1.5vw, 21px)/1.45 "Barlow", system-ui, sans-serif;
+}
+
 .site-boulai-kicker,
 .site-boulai-card-kicker {
   margin: 0;
@@ -401,6 +408,11 @@ footer [class*="text-white/[42%]"] {
 
   .site-boulai-hero-title {
     font-size: clamp(38px, 9.6vw, 46px);
+  }
+
+  .site-boulai-hero-subtitle {
+    margin-top: 20px;
+    font-size: 17px;
   }
 
   .site-boulai-description {
