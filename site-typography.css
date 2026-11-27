@@ -248,7 +248,7 @@ footer [class*="text-white/[42%]"] {
   max-width: 12em;
   margin: 0;
   color: #e6e8eb;
-  font: 600 clamp(48px, 4.7vw, 96px)/1.07 "Barlow", system-ui, sans-serif;
+  font: 600 clamp(42px, 4.1vw, 82px)/1.09 "Barlow", system-ui, sans-serif;
   letter-spacing: -.045em;
 }
 
@@ -259,7 +259,6 @@ footer [class*="text-white/[42%]"] {
   font: 400 clamp(17px, 1.5vw, 21px)/1.45 "Barlow", system-ui, sans-serif;
 }
 
-.site-boulai-kicker,
 .site-boulai-card-kicker {
   margin: 0;
   color: #8995a9;
@@ -269,14 +268,14 @@ footer [class*="text-white/[42%]"] {
 }
 
 .site-boulai-description {
-  max-width: 48ch;
-  margin: 22px 0 0;
+  max-width: 52ch;
+  margin: 30px 0 0;
   color: #b7bec9;
   font: 400 clamp(16px, 1.4vw, 19px)/1.55 "Barlow", system-ui, sans-serif;
 }
 
 .site-boulai-product-card {
-  margin-top: 30px;
+  margin-top: 0;
   padding: clamp(24px, 2.3vw, 36px);
   border: 1px solid #30394a;
   border-radius: 14px;
@@ -393,7 +392,7 @@ footer [class*="text-white/[42%]"] {
 
   .site-boulai-hero-title {
     max-width: 15ch;
-    font-size: clamp(42px, 6vw, 60px);
+    font-size: clamp(38px, 5.4vw, 54px);
   }
 }
 
@@ -407,7 +406,7 @@ footer [class*="text-white/[42%]"] {
   }
 
   .site-boulai-hero-title {
-    font-size: clamp(38px, 9.6vw, 46px);
+    font-size: clamp(34px, 8.6vw, 42px);
   }
 
   .site-boulai-hero-subtitle {
@@ -417,6 +416,7 @@ footer [class*="text-white/[42%]"] {
 
   .site-boulai-description {
     font-size: 15px;
+    margin-top: 26px;
   }
 
   .site-boulai-product-card {
