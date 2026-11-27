@@ -455,9 +455,9 @@ footer [class*="text-white/[42%]"] {
     grid-row: 2;
     width: calc(100% + 32px);
     height: 585px;
-    margin: -60px -16px 24px;
-    -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 14%);
-    mask-image: linear-gradient(to bottom, transparent 0, #000 14%);
+    margin: -80px -16px 44px;
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 8%);
+    mask-image: linear-gradient(to bottom, transparent 0, #000 8%);
   }
 
   .site-boulai-hero-support {
