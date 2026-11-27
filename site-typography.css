@@ -224,6 +224,19 @@ footer [class*="text-white/[42%]"] {
   font-size: 12px;
 }
 
+.site-hero-mission {
+  max-width: 54ch;
+  margin-top: 24px;
+  color: #d4dbe5;
+  font: 400 18px/1.5 "Barlow", system-ui, sans-serif;
+}
+
+@media (max-width: 767px) {
+  .site-hero-mission {
+    font-size: 16px;
+  }
+}
+
 .site-question-kicker {
   margin-bottom: 14px;
   color: #c4d5ec;
