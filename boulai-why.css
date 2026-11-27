@@ -1,0 +1,16 @@
+/* "why" in the hero title: dot-matrix gold, same language as the animation's points, with a slow light sweep.
+   Markup: Find out <span class="ba-why">why</span> before you find out the hard way. */
+.ba-why{
+  color:transparent;
+  background:linear-gradient(100deg,#C9921A 0%,#F2C94C 38%,#FFF4D0 50%,#F2C94C 62%,#C9921A 100%);
+  background-size:300% 100%;background-position:100% 0;
+  -webkit-background-clip:text;background-clip:text;
+  -webkit-mask-image:radial-gradient(circle,#000 0 1.2px,transparent 1.5px);mask-image:radial-gradient(circle,#000 0 1.2px,transparent 1.5px);
+  -webkit-mask-size:3.2px 3.2px;mask-size:3.2px 3.2px;
+  animation:ba-why-sheen 7s ease-in-out infinite;
+}
+@keyframes ba-why-sheen{0%,50%{background-position:100% 0}80%,100%{background-position:0% 0}}
+@media (max-width:899px){
+  .ba-why{-webkit-mask-image:radial-gradient(circle,#000 0 1px,transparent 1.25px);mask-image:radial-gradient(circle,#000 0 1px,transparent 1.25px);-webkit-mask-size:2.6px 2.6px;mask-size:2.6px 2.6px}
+}
+@media (prefers-reduced-motion:reduce){.ba-why{animation:none;background-position:50% 0}}
