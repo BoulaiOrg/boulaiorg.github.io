@@ -277,7 +277,7 @@ footer [class*="text-white/[42%]"] {
 .site-boulai-hero-anim-frame {
   display: block;
   width: 100%;
-  aspect-ratio: 600 / 445;
+  aspect-ratio: 600 / 400;
   border: 0;
   background: transparent;
   pointer-events: none;
