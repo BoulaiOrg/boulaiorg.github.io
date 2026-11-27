@@ -243,7 +243,8 @@ footer [class*="text-white/[42%]"] {
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr);
   align-items: center;
-  gap: clamp(48px, 5vw, 96px);
+  column-gap: clamp(48px, 5vw, 96px);
+  row-gap: 0;
 }
 
 .site-boulai-hero-title {
@@ -277,6 +278,15 @@ footer [class*="text-white/[42%]"] {
 }
 
 .site-boulai-hero-statement {
+  grid-column: 1;
+  grid-row: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.site-boulai-hero-support {
+  grid-column: 1;
+  grid-row: 2;
   position: relative;
   z-index: 1;
 }
@@ -409,15 +419,16 @@ footer [class*="text-white/[42%]"] {
 @media (max-width: 1023px) {
   .site-boulai-hero-grid {
     grid-template-columns: minmax(0, 1fr);
-    gap: 48px;
   }
 
   .site-boulai-hero-detail {
+    grid-column: 1;
+    grid-row: 3;
     position: relative;
     inset: auto;
     width: min(100%, 800px);
     height: 430px;
-    margin-inline: auto;
+    margin: 48px auto 0;
   }
 
   .site-boulai-hero-title {
@@ -432,7 +443,7 @@ footer [class*="text-white/[42%]"] {
   }
 
   .site-boulai-hero-grid {
-    gap: 38px;
+    row-gap: 0;
   }
 
   .site-boulai-hero-title {
@@ -440,11 +451,20 @@ footer [class*="text-white/[42%]"] {
   }
 
   .site-boulai-hero-detail {
-    height: 400px;
+    grid-row: 2;
+    width: calc(100% + 32px);
+    height: 585px;
+    margin: -60px -16px 24px;
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 14%);
+    mask-image: linear-gradient(to bottom, transparent 0, #000 14%);
+  }
+
+  .site-boulai-hero-support {
+    grid-row: 3;
   }
 
   .site-boulai-hero-subtitle {
-    margin-top: 20px;
+    margin-top: 0;
     font-size: clamp(13px, 4vw, 17px);
   }
 
