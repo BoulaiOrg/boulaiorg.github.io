@@ -259,8 +259,7 @@ footer [class*="text-white/[42%]"] {
   margin: 25px 0 0;
   color: #e6e8eb;
   font: 400 clamp(17px, 1.5vw, 21px)/1.45 "Barlow", system-ui, sans-serif;
-  max-width: 52ch;
-  white-space: normal;
+  white-space: nowrap;
 }
 
 .site-boulai-card-kicker {
